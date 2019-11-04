@@ -1,9 +1,11 @@
 <h1>Project proposal</h1>
-<h2>Problem statement</h2>
+Summary: an application that helps finding the best restaurant suggestions based on multiple preferences. Made by: Rosan van der Werf 11030917
+
+<h3>Problem statement</h3>
 target audience: people that want to eat together but (problem:) don't really know what and where to eat. Furthermore, there's a lot food preferences like veganism, vegetarism or allergies/introlerances, which makes it hard to find a nice place that fits the needs and takes into account these preferences.
 
-<h2>Solution</h2>
-This app helps finding restaurant suggestions based on the user's location or a spcecified address, in which it also ensures it meets the preferences of the user self and the (when indicated) friend(s) the user wishes to eat with.
+<h3>Solution</h3>
+This app helps finding restaurant suggestions based on the user's location or a spcecified address, in which it also ensures it meets the preferences of the user self and the (when indicated) friend(s) the user wishes to eat with. 
 
 Main features:
 - Register as user and indicate food preferences
@@ -14,15 +16,17 @@ Main features:
 - When a pointer is clicked, details appear in the bottom of the screen
 - (optional:) share the resaurant address/details via e.g. Whatsapp or as text or something
 
+![visual sketch](doc/sketch.PNG)
+
 <h2>Prerequisites</h2>
 
 Data sources:
-- Map import (library)
-- An API to request restaurants that meet the search filter
+- [Import Maps SDK](https://developers.google.com/maps/documentation/android-sdk/utility/) 
+- [An API to request restaurants that meet the search filter](https://docs.eet.nu/)
 
 External components:
-- User management (google) 
-- SQLite (for friends)
+- [Firebase to manage users](https://firebase.google.com/docs/auth/admin/manage-users) 
+- [Room, an alternate SQLite (for friends)](https://developer.android.com/training/data-storage/room)
 
 Similar mobile apps:
 - Google Maps
