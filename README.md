@@ -25,7 +25,6 @@ Data sources:
 - [An API to request restaurants that meet the search filter](https://docs.eet.nu/)
 
 External components:
-- [Firebase to manage users](https://firebase.google.com/docs/auth/admin/manage-users) 
 - [Room, an alternate SQLite (for friends)](https://developer.android.com/training/data-storage/room)
 
 Similar mobile apps:
